@@ -66,3 +66,22 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 "# Laravel-Web-Perpus" 
 "# laravel-perpus" 
+
+## Cara Cloning Repository
+- Clone repo dan CD ke Direktori yang sudah diclone
+```bash
+git clone https://github.com/rasyidr23/laravel-perpus.git .
+```
+- di dalam terminal jalankan perintah
+```bash
+composer update
+```
+- Import db file(```perpus.sql```) kedalam database (mysql,sql)
+- jalankan perintah seperti berikut didalam terminal
+```bash
+php artisan key:generate
+```
+- jalankan perintah ini pada terminal untuk menjalankan web
+```bash
+php artisan serve
+```
