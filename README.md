@@ -74,7 +74,12 @@ git clone https://github.com/rasyidr23/laravel-perpus.git .
 ```
 - di dalam terminal jalankan perintah
 ```bash
-composer update
+composer install
+```
+jika error "Could not scan for classes inside dir"
+hapus folder vendor dan jalankan ulang perintah 
+```bash
+composer install
 ```
 - Import db file(```perpus.sql```) kedalam database (mysql,sql)
 - jalankan perintah seperti berikut didalam terminal
