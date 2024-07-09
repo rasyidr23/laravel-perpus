@@ -17,7 +17,7 @@
     <body>
         <div class="container" style="background:#ccc">
         <div class="alert alert-info text-center">   
-            <h4 style="margin-bottom: 0px"><b>Selamat datang</b> admin Perpustakaan Universitas Gunadarma</h4>     
+            <h4 style="margin-bottom: 0px"><b>Selamat datang</b> admin Perpustakaan </h4>     
         </div>
             @include('menu')
             @include('banner')

@@ -17,7 +17,7 @@
             <div class="col-md-3">
                 Copyright &copy; 2023. All right reserve
                 <p>
-                Developed by kelompok 3</div>
+                Developed by Rasyid</div>
         </div>
     </div>
     <!--akhir FOOTER-->
