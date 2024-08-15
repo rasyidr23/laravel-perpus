@@ -3,7 +3,7 @@
 
 @section('isihalaman')
     <h3><center>Data Peminjaman Buku</center><h3>
-    <h3><center>Perpustakaan Universitas Gunadarma</center></h3>
+    <h3><center></center></h3>
 
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPinjamTambah"> 
         Tambah Data Peminjaman 
@@ -27,9 +27,9 @@
                 <tr>
                     <td align="center" scope="row">{{ $index + $pinjam->firstItem() }}</td>
                     <td align="center">{{$p->id_pinjam}}</td>
-                    <td>{{$p->petugas->nama_petugas}}</td>
-                    <td>{{$p->anggota->nama_anggota}}</td>
-                    <td>{{$p->buku->judul}}</td>
+                    <td>{{$p->petugas->nama_petugas ?? 'Petugas tidak ada dalam database'}}</td>
+                    <td>{{$p->anggota->nama_anggota ?? 'Anggota tidak ada dalam database'}}</td>
+                    <td>{{$p->buku->judul ?? 'Buku tidak ada dalam database'}}</td>
                     <td align="center">
                         <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modalPinjamEdit{{$p->id_pinjam}}"> 
                             Edit
